@@ -8,6 +8,8 @@ basically just worked on the store page, created a simple design wich is more in
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 @font-face {
     font-family: 'Pacifica';
     src: url(fonts/Pacifica.otf);
@@ -62,9 +64,7 @@ nav a{
 
 .shop-items{
     /*border: solid 1px red;*/
-    margin: 10px;
     background-color:#2c3333db;
-    border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.197);
 }
 
@@ -98,8 +98,10 @@ nav a{
 }
 
 .product-text{
+    font-family: 'Open Sans';
     width: 280px;
-    margin: 20px;
+    height: 385px;
+    margin: -5px;
     padding: 20px;
     color: white;
     font-size: 1.0em;
@@ -107,18 +109,20 @@ nav a{
 
 
 .product-text ul{
-    padding-top: 10px;
+    padding: 10px;
     margin-left: 30px;
     font-size: 1.0em;
 }
 
 .product-text h5{
+    font-size: 1.3em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    padding: 10px;
 }
 
 .product-text p{
+    padding: 5px;
     text-align: center;
 }
 
@@ -132,10 +136,51 @@ nav a{
 }
 
 .container-background h3{
+    padding: 10px;
     border-radius: 5px 5px 0px 0px;
     background-color: rgb(166, 48, 48);
     text-align: center;
     color: white;
     font-family: 'Pacifica';
     font-size: 2em;
+}
+
+.about-us{
+    font-family: 'Open Sans';
+    text-align: center;
+}
+
+#introduction{
+    padding: 30px;
+    background-color: #191a1ad0;
+    font-size: 2em;
+}
+
+.about-us span{
+    color: rgb(255, 0, 0);
+}
+
+.about{
+    text-align: center;
+    background-color: #2c3333d0;
+    padding: 40px;
+    font-size: 1.3em;
+}
+
+.about p {
+    padding: 20px;
+}
+
+
+.product-button {
+    align-items: bottom;
+    background-color: black;
+    color: white;
+    margin: 25px;
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
 }
